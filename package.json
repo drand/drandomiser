@@ -1,0 +1,47 @@
+{
+  "name": "drandomiser",
+  "version": "0.0.1",
+  "description": "A tool for drawing random participants who will receive social income",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "npm run lint && npm run check && npm run test",
+    "start": "ts-node ./src/index.ts",
+    "check": "tsc --noEmit",
+    "lint": "eslint",
+    "lint:fix": "eslint --fix",
+    "test": "jest --verbose ./test/**/*.test.ts"
+  },
+  "repository": {
+    "type": "git",
+    "url": "github.com/drand/drandomiser"
+  },
+  "keywords": [
+    "drand",
+    "bls12-381",
+    "threshold",
+    "cryptography",
+    "UBI",
+    "social",
+    "income"
+  ],
+  "author": "drand x socialincome.oirg",
+  "license": "ISC",
+  "devDependencies": {
+    "@parcel/packager-ts": "^2.8.3",
+    "@parcel/transformer-typescript-types": "^2.8.3",
+    "@types/chai": "^4.3.4",
+    "@types/jest": "^29.2.6",
+    "@types/node": "^18.11.18",
+    "@typescript-eslint/eslint-plugin": "^5.48.2",
+    "@typescript-eslint/parser": "^5.48.2",
+    "chai": "^4.3.7",
+    "eslint": "^8.32.0",
+    "jest": "^29.3.1",
+    "ts-jest": "^29.0.5",
+    "ts-node": "^10.9.1",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "drand-client": "^1.0.0-pre.6"
+  }
+}

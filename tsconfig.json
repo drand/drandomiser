@@ -1,0 +1,30 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "target": "es2020",
+    "sourceMap": true,
+    "outDir": "./dist/",
+    "moduleResolution": "node",
+    "declaration": true,
+    "allowJs": true,
+    "esModuleInterop": true,
+    "strict": true,
+    "allowSyntheticDefaultImports": true,
+    "lib": [
+      "esnext"
+    ],
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "resolveJsonModule": true,
+    "isolatedModules": false,
+    "types": [
+      "node",
+      "jest",
+    ]
+  },
+  "include": [
+    "src/**/*.ts"
+  ],
+  "compileOnSave": true
+}
+
