@@ -2,11 +2,9 @@
   "name": "drandomiser",
   "version": "0.0.1",
   "description": "A tool for drawing random participants who will receive social income",
-  "main": "dist/index.js",
   "scripts": {
-    "build": "npm run lint && npm run check && npm run test",
-    "start": "ts-node ./src/index.ts",
-    "check": "tsc --noEmit",
+    "build": "npm run lint && npm run compile && npm run test",
+    "compile": "tsc --project tsconfig.json",
     "lint": "eslint",
     "lint:fix": "eslint --fix",
     "test": "jest --verbose ./test/**/*.test.ts"
@@ -35,6 +33,7 @@
     "@typescript-eslint/eslint-plugin": "^5.48.2",
     "@typescript-eslint/parser": "^5.48.2",
     "chai": "^4.3.7",
+    "commander": "^10.0.0",
     "eslint": "^8.32.0",
     "jest": "^29.3.1",
     "ts-jest": "^29.0.5",
