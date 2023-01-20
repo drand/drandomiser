@@ -36,12 +36,15 @@ We will deliver a solution in three phases:
 ## Running the project
 
 ### Prerequisites
-- node 16+
-- npm 8+
+- node 19+
+- npm 9+
+
+Versions lower than 19 might work, but you might need to wave your magic wand to get `fetch` working.
 
 ### Quickstart
-First, you must install the dependencies by running `npm install`
-To start the tool, run `npm start`
+- install the dependencies by running `npm install`
+- compile the tool by running `npm run compile`
+- run the tool using node by running `node dist/index.js run --count=1 --round=1 --csv=./path/to/csv/file.csv`, replacing the values as appropriate
 
 ### Slowstart
 Same as the quick start but prepare a coffee ☕

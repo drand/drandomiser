@@ -41,6 +41,7 @@
     "typescript": "^4.9.4"
   },
   "dependencies": {
-    "drand-client": "^1.0.0-pre.6"
+    "drand-client": "^1.0.0-pre.6",
+    "node-fetch": "^3.3.0"
   }
 }
