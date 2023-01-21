@@ -11,17 +11,17 @@ To integrate drand randomness in their recipient selection process to enable tra
 ## Execution
 We will deliver a solution in three phases:
 
-1. create a standalone tool for selecting random participants to become recipients.
+1. _create a standalone tool for selecting random participants to become recipients._  
    The tool will take a csv file of participant UIDs, a target drand round number and the number of participants that will be selected.
    When the specificed drand round has been created, the randomness will be consumed by the tool and the list of chosen recipients will be output.
    These participants will then be paid manually using the existing system and recorded.
    Social Income will post the participant list, chosen drand round number and the code for the tool on their website in advance, so that third parties can verify the output for themselves.
    Payouts will be livestreamed to increase transparency.
 
-2. integrate this tool with the existing socialincome tools
+2. _integrate this tool with the existing socialincome tools._  
    As the website and admin panel code is open source, the drand tool and reporting of its output will be integrated into both to enable automatic payments without human intervention. This will lower the risk of malicious human intervention in the process.
 
-3. develop a smart contract to automate the selection and payout process
+3. _develop a smart contract to automate the selection and payout process._  
    Once drand is integrated with a blockchain ecosystem, the registration of participant UIDs, consumption of the drand beacon and payout process can be automated as such that no human can influence the process (either by selecting a participant manually or failing to pay out chosen participants)
 
 ## Outstanding questions
