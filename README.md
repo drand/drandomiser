@@ -3,7 +3,7 @@ A tool for randomly selecting identifiers from a pre-provided list.
 
 ## Situation
 
-Social Income disburse monthly payouts of $45 to people in need in Sierra Leone from donors in (mostly) developed countries. They currently select the recipients on a somewhat manual basis (to maintain balance with respect to gender balance, age, etc). Payouts are made to mobile payment systems that are commonplace in Sierra Leone.
+[Social Income](https://socialincome.org) disburse monthly payouts of $30 to people in need in the Global South (currently in Sierra Leone). The initiative is financed by monthly contributions from people in (mostly) developed countries. They currently select the recipients on a somewhat manual basis (to maintain balance with respect to gender balance etc). Payouts are made to mobile payment systems that are commonplace in Sierra Leone.
 
 ## Mission
 To integrate drand randomness in their recipient selection process to enable transparent and fair selection of who should receive basic income.
@@ -19,7 +19,7 @@ We will deliver a solution in three phases:
    Payouts will be livestreamed to increase transparency.
 
 2. _integrate this tool with the existing socialincome tools._  
-   As the website and admin panel code is open source, the drand tool and reporting of its output will be integrated into both to enable automatic payments without human intervention. This will lower the risk of malicious human intervention in the process.
+   As the website and admin panel code is [open source](https://github.com/socialincome-san/public), the drand tool and reporting of its output will be integrated into both to enable automatic payments without human intervention. This will lower the risk of malicious human intervention in the process.
 
 3. _develop a smart contract to automate the selection and payout process._  
    Once drand is integrated with a blockchain ecosystem, the registration of participant UIDs, consumption of the drand beacon and payout process can be automated as such that no human can influence the process (either by selecting a participant manually or failing to pay out chosen participants)
