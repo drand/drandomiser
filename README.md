@@ -44,7 +44,15 @@ Versions lower than 19 might work, but you might need to wave your magic wand to
 ### Quickstart
 - install the dependencies by running `npm install`
 - compile the tool by running `npm run compile`
-- run the tool using node by running `node dist/index.js run --count=1 --round=1 --csv=./path/to/csv/file.csv`, replacing the values as appropriate
+- run the tool using node by running `node dist/index.js run --count=1 --round=1 --csv=./path/to/csv/file.csv`, replacing the values as appropriate.
 
 ### Slowstart
 Same as the quick start but prepare a coffee ☕
+
+### CLI params
+- **count**  
+the number of values you wish to select from the CSV file
+- **round**  
+the drand round number you have committed to for providing randomness for the draw
+- **csv**  
+the csv file containing the values you wish to draw from
