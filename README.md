@@ -24,14 +24,12 @@ We will deliver a solution in three phases:
 3. develop a smart contract to automate the selection and payout process
    Once drand is integrated with a blockchain ecosystem, the registration of participant UIDs, consumption of the drand beacon and payout process can be automated as such that no human can influence the process (either by selecting a participant manually or failing to pay out chosen participants)
 
-
 ## Outstanding questions
 - do we need to mask UIDs for security purposes?
 - can we provide an easy way for participants to verify their inclusion in the process?
 - can such as trusted execution environments or code attestations be used to ensure a higher guarantee that social income is running the software they say they are?
 - how can trust in the payment services provider be reduced?
 - how can we easily mandate a balance of other characteristics such as gender, location or age group without exposing user data?
-
 
 ## Running the project
 
@@ -56,3 +54,11 @@ the number of values you wish to select from the CSV file
 the drand round number you have committed to for providing randomness for the draw
 - **csv**  
 the csv file containing the values you wish to draw from
+
+### TODO
+- [] waiting for a drand round to happen rather than assuming it has already passed
+- [] check value counts to ensure no modulo bias
+- [] a more complete CSV parser
+- [] a nice web UI to make it easy to use
+- [] webhook integration to enable triggering actions based on the output
+- [] create a tool for participants to see if their entry is in an upcoming draw
