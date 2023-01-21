@@ -59,6 +59,10 @@ the csv file containing the values you wish to draw from
 - [ ] waiting for a drand round to happen rather than assuming it has already passed
 - [ ] check value counts to ensure no modulo bias
 - [ ] a more complete CSV parser
+- [ ] support other file formats
+- [ ] provide an API for uploading files
 - [ ] a nice web UI to make it easy to use
+- [ ] a nice web UI for reporting the status of ongoing/upcoming draws
 - [ ] webhook integration to enable triggering actions based on the output
 - [ ] create a tool for participants to see if their entry is in an upcoming draw
+- [ ] make the tool long-running for multiple draws
