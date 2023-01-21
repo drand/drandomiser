@@ -48,12 +48,12 @@ Versions lower than 19 might work, but you might need to wave your magic wand to
 Same as the quick start but prepare a coffee ☕
 
 ### CLI params
+- **csv**  
+  the csv file containing the values you wish to draw from
 - **count**  
 the number of values you wish to select from the CSV file
 - **round**  
 the drand round number you have committed to for providing randomness for the draw
-- **csv**  
-the csv file containing the values you wish to draw from
 
 ### TODO
 - [ ] waiting for a drand round to happen rather than assuming it has already passed
