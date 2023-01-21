@@ -56,9 +56,9 @@ the drand round number you have committed to for providing randomness for the dr
 the csv file containing the values you wish to draw from
 
 ### TODO
-- [] waiting for a drand round to happen rather than assuming it has already passed
-- [] check value counts to ensure no modulo bias
-- [] a more complete CSV parser
-- [] a nice web UI to make it easy to use
-- [] webhook integration to enable triggering actions based on the output
-- [] create a tool for participants to see if their entry is in an upcoming draw
+- [ ] waiting for a drand round to happen rather than assuming it has already passed
+- [ ] check value counts to ensure no modulo bias
+- [ ] a more complete CSV parser
+- [ ] a nice web UI to make it easy to use
+- [ ] webhook integration to enable triggering actions based on the output
+- [ ] create a tool for participants to see if their entry is in an upcoming draw
